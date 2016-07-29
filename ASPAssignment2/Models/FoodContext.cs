@@ -13,9 +13,6 @@ namespace ASPAssignment2.Models
         }
         public virtual DbSet<food> Food { get; set; }
 
-
-        //protected override void OnModelCreating(DbModelBuilder modelBuilder)
-        //{
-        //}
+        
     }
 }

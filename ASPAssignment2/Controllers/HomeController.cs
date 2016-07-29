@@ -18,9 +18,8 @@ namespace ASPAssignment2.Controllers
 
         public ActionResult Menu()
         {
-
-            var foodName = foodDB.Food.ToList();
-            return View(foodName);
+            return View();
+          
         }
 
         public ActionResult Contact()

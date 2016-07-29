@@ -8,6 +8,6 @@ namespace ASPAssignment2.Models
 {
     public class FoodEntities : DbContext
     {
-        public DbSet<food> food { get; set; }
+       // public DbSet<food> Food { get; set; }
     }
 }
