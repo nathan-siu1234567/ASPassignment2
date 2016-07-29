@@ -3,11 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using ASPAssignment2.Models;
+
 
 namespace ASPAssignment2.Controllers
 {
     public class HomeController : Controller
     {
+        FoodEntities foodDB = new FoodEntities();
         public ActionResult Index()
         {
             return View();
@@ -15,9 +18,9 @@ namespace ASPAssignment2.Controllers
 
         public ActionResult Menu()
         {
-            ViewBag.Message = "Your application description page.";
 
-            return View();
+            var foodName = foodDB.food.ToList();
+            return View(foodName);
         }
 
         public ActionResult Contact()
@@ -26,5 +29,7 @@ namespace ASPAssignment2.Controllers
 
             return View();
         }
+       
+       
     }
 }
