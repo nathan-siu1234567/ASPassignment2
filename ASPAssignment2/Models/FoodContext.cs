@@ -11,10 +11,11 @@ namespace ASPAssignment2.Models
             : base("name=FoodConnection")
         {
         }
+        public virtual DbSet<food> Food { get; set; }
 
 
-        protected override void OnModelCreating(DbModelBuilder modelBuilder)
-        {
-        }
+        //protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        //{
+        //}
     }
 }

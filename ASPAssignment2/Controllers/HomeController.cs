@@ -10,7 +10,7 @@ namespace ASPAssignment2.Controllers
 {
     public class HomeController : Controller
     {
-        FoodEntities foodDB = new FoodEntities();
+        FoodContext foodDB = new FoodContext();
         public ActionResult Index()
         {
             return View();
@@ -19,7 +19,7 @@ namespace ASPAssignment2.Controllers
         public ActionResult Menu()
         {
 
-            var foodName = foodDB.food.ToList();
+            var foodName = foodDB.Food.ToList();
             return View(foodName);
         }
 

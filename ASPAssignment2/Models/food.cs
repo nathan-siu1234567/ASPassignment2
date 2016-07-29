@@ -21,12 +21,12 @@ namespace ASPAssignment2.Models
             this.Description = Description;
 
         }
-        public int FoodID { get; set; }
-        public string foodImageUrl { get; set; }
-        public string Name { get; set; }
-        public double Price { get; set; }
-        public string shortDescription { get; set;}
-        public string Description { get; set; }
+        public virtual int FoodID { get; set; }
+        public virtual string foodImageUrl { get; set; }
+        public virtual string Name { get; set; }
+        public virtual double Price { get; set; }
+        public virtual string shortDescription { get; set;}
+        public virtual string Description { get; set; }
 
 
     }
