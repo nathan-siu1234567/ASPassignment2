@@ -9,6 +9,11 @@
     padding-left: 15px;
     padding-right: 15px;
 }
+#pic{
+    display:block;
+    margin: 0 auto;
+    padding-bottom:10px;
+}
 #holder{
     padding-right:50px;
      display: block;
