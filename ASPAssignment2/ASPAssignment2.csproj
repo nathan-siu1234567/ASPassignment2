@@ -146,10 +146,6 @@
     <Content Include="Assets\chicken.jpg" />
     <Content Include="Assets\frenchtoast.jpg" />
     <Content Include="Assets\Pancakes.jpg" />
-    <Content Include="Assets\Pizza.jpeg" />
-    <Content Include="Assets\Spaghetti.jpg" />
-    <Content Include="Assets\sundae.jpg" />
-    <Content Include="Assets\Tacos.jpg" />
     <Content Include="Assets\Waffles.jpg" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
@@ -197,7 +193,7 @@
     <Content Include="Views\foods\Delete.cshtml" />
     <Content Include="Views\foods\Details.cshtml" />
     <Content Include="Views\foods\Edit.cshtml" />
-    <Content Include="Views\foods\Menu.cshtml" />
+    <Content Include="Views\foods\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

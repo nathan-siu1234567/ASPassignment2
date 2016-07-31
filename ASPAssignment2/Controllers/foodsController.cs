@@ -16,7 +16,7 @@ namespace ASPAssignment2.Controllers
         private FoodContext db = new FoodContext();
 
         // GET: foods
-        public async Task<ActionResult> Menu()
+        public async Task<ActionResult> Index()
         {
             return View(await db.Food.ToListAsync());
         }
