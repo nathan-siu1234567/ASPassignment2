@@ -3,14 +3,14 @@
 @{
     ViewBag.Title = "Menu";
 }
-
+<div class="container">
 <h2>Food On Demand Menu</h2>
 
 
 @foreach (var item in Model)
 {
 
-    <div class="row">
+    
         <div class="col-sm-4 col-md-3">
             <div class="thumbnail">
                 <img src="@Html.DisplayFor(modelItem => item.foodImageUrl)" alt="Picture of food">
@@ -22,6 +22,6 @@
                 </div>
             </div>
         </div>
-    </div>
+    
 }
-
+    </div>

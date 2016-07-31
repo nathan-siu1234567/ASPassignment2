@@ -5,6 +5,7 @@
 
 /* Set padding to keep content from hitting the edges */
 .body-content {
+    padding-top:50px;
     padding-left: 15px;
     padding-right: 15px;
 }
@@ -15,7 +16,9 @@
 .dl-horizontal dt {
     white-space: normal;
 }
-
+#nav{
+   padding-top:1px;
+}
 /* Set width on the form input elements since they're 100% wide by default */
 input,
 select,
