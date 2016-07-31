@@ -137,7 +137,6 @@
     </Compile>
     <Compile Include="Models\food.cs" />
     <Compile Include="Models\FoodContext.cs" />
-    <Compile Include="Models\FoodEntities.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -189,10 +188,7 @@
     <Content Include="Views\Home\Menu.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\foods\Create.cshtml" />
-    <Content Include="Views\foods\Delete.cshtml" />
     <Content Include="Views\foods\Details.cshtml" />
-    <Content Include="Views\foods\Edit.cshtml" />
     <Content Include="Views\foods\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>

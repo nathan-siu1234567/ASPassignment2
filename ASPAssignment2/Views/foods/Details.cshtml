@@ -7,17 +7,11 @@
 <h2>Details</h2>
 
 <div>
-    <h4>food</h4>
     <hr />
     <dl class="dl-horizontal">
         <dt>
-            @Html.DisplayNameFor(model => model.foodImageUrl)
             <img src="@Model.foodImageUrl" alt="@Model.Name" height="200" width="200"/>
         </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.foodImageUrl)
-        </dd>
 
         <dt>
             @Html.DisplayNameFor(model => model.Name)
@@ -36,14 +30,6 @@
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.shortDescription)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.shortDescription)
-        </dd>
-
-        <dt>
             @Html.DisplayNameFor(model => model.Description)
         </dt>
 
@@ -54,6 +40,5 @@
     </dl>
 </div>
 <p>
-    @Html.ActionLink("Edit", "Edit", new { id = Model.FoodID }) |
     @Html.ActionLink("Back to List", "Index")
 </p>
