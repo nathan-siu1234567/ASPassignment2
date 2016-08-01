@@ -1,3 +1,9 @@
+/**
+ * Names: Nathan Siu and mike Meissner
+ * File Name foodContext.cs
+ * File Description: This is the food connection
+ * 
+ * */
 namespace ASPAssignment2.Models
 {
     using System;

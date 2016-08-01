@@ -1,4 +1,9 @@
-﻿@model IEnumerable<ASPAssignment2.Models.food>
+﻿<!--Name:Nathan Siu and Mike Meissner
+    File Name:Index
+    Description: This file displays the menu
+    -->
+
+@model IEnumerable<ASPAssignment2.Models.food>
 
 @{
     ViewBag.Title = "Menu";
@@ -7,7 +12,7 @@
 <h2>Food On Demand Menu</h2>
 
 
-@foreach (var item in Model)
+@foreach (var item in Model)// loops through records and displays the food items
 {
 
     

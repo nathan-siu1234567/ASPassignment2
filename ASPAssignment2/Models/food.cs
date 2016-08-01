@@ -3,6 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
+/**
+ * Names: Nathan Siu and mike Meissner
+ * File Name food.cs
+ * File Description: This is the model for hte food
+ * 
+ * */
 namespace ASPAssignment2.Models
 {
     
