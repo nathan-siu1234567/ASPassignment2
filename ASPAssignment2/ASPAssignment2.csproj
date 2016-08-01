@@ -143,6 +143,7 @@
     <Content Include="Assets\burger.jpg" />
     <Content Include="Assets\Cake.jpg" />
     <Content Include="Assets\chicken.jpg" />
+    <Content Include="Assets\MAP.JPG" />
     <Content Include="favicon.ico" />
     <Content Include="Assets\frenchtoast.jpg" />
     <Content Include="Assets\Pancakes.jpg" />
