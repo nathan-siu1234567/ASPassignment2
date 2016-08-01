@@ -143,6 +143,7 @@
     <Content Include="Assets\burger.jpg" />
     <Content Include="Assets\Cake.jpg" />
     <Content Include="Assets\chicken.jpg" />
+    <Content Include="favicon.ico" />
     <Content Include="Assets\frenchtoast.jpg" />
     <Content Include="Assets\Pancakes.jpg" />
     <Content Include="Assets\restaurant.jpg" />
@@ -151,7 +152,6 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\font-awesome.css" />
     <Content Include="Content\font-awesome.min.css" />
-    <Content Include="favicon.ico" />
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
